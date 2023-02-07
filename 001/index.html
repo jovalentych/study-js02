@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/bootstrap.css" />
+  </head>
+  <body>
+    <!--HEADER-->
+    <main class="main">
+      <div class="container">
+        <div class="header">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="logo">
+                <img src="./src/img/YOV.svg" alt="" width="150px" />
+              </div>
+            </div>
+            <div class="col-lg-2 offset-lg-4 col-sm-6 offset-sm-4">
+              <a class="phone_link" href="tel:+380951764701"
+                >+38(095)-176-47-01</a
+              >
+            </div>
+            <div class="col-lg-3">
+              <div class="wrap">
+                <div class="wrap-block">
+                  <button class="button header-button">
+                    Get the consultation
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--MAIN CONTENT-->
+        <div class="main-content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="main-title">
+                <h1>
+                  Lorem ipsum <br />
+                  dolor sit.
+                </h1>
+                <p class="main-subtitle">
+                  Lorem ipsum dolor sit <br />
+                  amet consectetur.
+                </p>
+                <span>
+                  Lorem ipsum dolor <br /><strong>sit</strong> amet consectetur.
+                </span>
+                <strong class="main-trigger">Lorem, ipsum dolor!</strong>
+              </div>
+            </div>
+            <div class="col-lg-4 offset-lg-2" />
+            <div class="main-form">
+              <h2 class="main-form-header">
+                Lorem ipsum dolor, sit amet
+                <strong>consectetur adipisicing.</strong>
+              </h2>
+              <form action="#">
+                <label for="#">Your name</label>
+                <input type="text" class="main-form-input" />
+                <label for="#">Phone number</label>
+                <input type="text" class="main-form-input" />
+                <button type="submit" class="button main-form-btn">
+                  Send an application
+                </button>
+                <small>Lorem, ipsum dolor.</small>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="features">
+      <div class="container">
+        <h2 class="section-header">Lorem ipsum dolor sit.</h2>
+        <div class="features-slider">
+          <div class="features-block">
+            <div class="features-img">
+              <picture>
+                <source
+                  srcset="./src/img/features-icons/clock.svg"
+                  type="image/"
+                />
+                <img
+                  src="./src/img/features-icons/clock.png"
+                  alt="Lorem, ipsum dolor."
+                />
+              </picture>
+              <h3>Lorem, ipsum.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, placeat.
+              </p>
+            </div>
+          </div>
+          <div class="features-block">
+            <div class="features-img">
+              <picture>
+                <source
+                  srcset="./src/img/features-icons/coins.svg"
+                  type="image/"
+                />
+                <img
+                  src="./src/img/features-icons/coins.png"
+                  alt="Lorem, ipsum dolor."
+                />
+              </picture>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                nemo facilis fugiat at.
+              </p>
+            </div>
+          </div>
+          <div class="features-block">
+            <div class="features-img">
+              <picture>
+                <source
+                  srcset="./src/img/features-icons/folder.svg"
+                  type="image/"
+                />
+                <img
+                  src="./src/img/features-icons/folder.png"
+                  alt="Lorem, ipsum dolor."
+                />
+              </picture>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo.
+              </p>
+            </div>
+          </div>
+          <div class="features-block">
+            <div class="features-img">
+              <picture>
+                <source
+                  srcset="./src/img/features-icons/piggyBank.svg"
+                  type="image/"
+                />
+                <img
+                  src="./src/img/features-icons/piggyBank.png"
+                  alt="Lorem, ipsum dolor."
+                />
+              </picture>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae, ex!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".features-slider").slick({
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 991,
+              settings: {
+                arrows: false,
+                slidesToShow: 2,
+                prevArrow: '<button class="prev">Hello</button>',
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>

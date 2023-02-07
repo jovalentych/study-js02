@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header {
+  background: url(../img/bg.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 35rem;
+  text-align: center;
+  border-radius: 0px 0px 12px 12px;
+}
+.header h1 {
+  text-align: left;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 900;
+  margin-top: 4rem;
+}
+.header-button {
+  background-color: #fc7614;
+  color: #ffffff;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+.header-polish {
+  background: url(../img/bg-poland.jpg) center no-repeat;
+  min-height: 600px;
+  text-align: center;
+  border-radius: 0px 0px 12px 12px;
+}
+.header-biotech {
+  background: url(../img/bg-biotech.jpg) center no-repeat;
+  min-height: 600px;
+  text-align: center;
+  border-radius: 0px 0px 12px 12px;
+}
+/*NAVIGATION BAR*/
+.nav-box {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #fc7614;
+}
+.navbar-expand-lg {
+  min-width: 350px;
+}
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link {
+  margin-right: 2rem;
+}
+.main-form {
+  margin-top: 4rem;
+  width: 25rem;
+  background: white;
+  padding: 1.5rem;
+  text-align: center;
+  display: block;
+}
+.main-form h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0rem;
+}
+.main-form form {
+  margin-top: 0;
+}
+.main-form label {
+  margin-top: 0;
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  padding: 0.5em;
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.main-form input {
+  width: 100%;
+  padding: 1rem;
+  display: block;
+  border: 1px solid #dddddd;
+  font-size: 18px;
+}
+.main-short-description {
+  margin-top: 10rem;
+}
+.main-short-description h2 {
+  font-size: 3.2rem;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.main-short-description p {
+  padding: 2rem 1rem;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.5rem;
+}
+.main-todo-box {
+  margin-top: 10rem;
+  text-align: center;
+}
+.main-todo-box h2 {
+  font-size: 4rem;
+}
+.main-todo-cards {
+  display: flex;
+  margin-top: 3rem;
+}
+.main-todo-cards .card {
+  height: 30rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.main-todo-cards .card h5 {
+  text-align: center;
+}
+.main-todo-cards .card a {
+  width: 90%;
+  position: absolute;
+  top: 90%;
+}
+.footer {
+  min-height: 10rem;
+  margin-top: 5rem;
+  background-color: #333333;
+  border-radius: 12px 12px 0px 0px;
+}

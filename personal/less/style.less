@@ -1,0 +1,155 @@
+@orange: #fc7614;
+@grey333: #333333;
+@light-grey: #787878;
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  &-fluid {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.header {
+  background: url(../img/bg.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 35rem;
+  text-align: center;
+  border-radius: 0px 0px 12px 12px;
+  h1 {
+    text-align: left;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 900;
+    margin-top: 4rem;
+  }
+  &-button {
+    background-color: @orange;
+    color: #ffffff;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 1.5rem;
+  }
+  &-polish {
+    background: url(../img/bg-poland.jpg) center no-repeat;
+    min-height: 600px;
+    text-align: center;
+    border-radius: 0px 0px 12px 12px;
+  }
+  &-biotech {
+    background: url(../img/bg-biotech.jpg) center no-repeat;
+    min-height: 600px;
+    text-align: center;
+    border-radius: 0px 0px 12px 12px;
+  }
+}
+
+/*NAVIGATION BAR*/
+.nav-box {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: @orange;
+  &-expand-lg {
+    min-width: 350px;
+  }
+  .container-fluid {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.nav-link {
+  margin-right: 2rem;
+}
+
+.main {
+  &-form {
+    margin-top: 4rem;
+    width: 25rem;
+    background: white;
+    padding: 1.5rem;
+    text-align: center;
+    display: block;
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 0rem;
+    }
+    form {
+      margin-top: 0;
+    }
+    label {
+      margin-top: 0;
+      position: relative;
+      top: 20px;
+      display: inline-block;
+      padding: 0.5em;
+      background-color: #ffffff;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    input {
+      width: 100%;
+      padding: 1rem;
+      display: block;
+      border: 1px solid #dddddd;
+      font-size: 18px;
+    }
+  }
+  &-short-description {
+    margin-top: 10rem;
+    h2 {
+      font-size: 3.2rem;
+      font-family: "Exo 2", sans-serif;
+      font-weight: 600;
+      text-align: center;
+    }
+    p {
+      padding: 2rem 1rem;
+      font-family: "Exo 2", sans-serif;
+      font-size: 1.5rem;
+    }
+  }
+  &-todo-box {
+    margin-top: 10rem;
+    text-align: center;
+    h2 {
+      font-size: 4rem;
+    }
+  }
+  &-todo-cards {
+    display: flex;
+    margin-top: 3rem;
+    // text-align: center;
+    .card {
+      height: 30rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      h5 {
+        text-align: center;
+      }
+      a {
+        width: 90%;
+        position: absolute;
+        top: 90%;
+      }
+    }
+  }
+}
+
+.footer {
+  min-height: 10rem;
+  margin-top: 5rem;
+  background-color: @grey333;
+  border-radius: 12px 12px 0px 0px;
+}

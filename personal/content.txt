@@ -1,0 +1,77 @@
+<!--Картка БІОХІМІЯ-->
+
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./img/cards-img/biochem-card-img.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Біохімія</h5>
+                  <p class="card-text">
+                    Біохі́мія (від грец. βίος — «життя» і єгип. kēme — «Земля»,
+                    також біологічна або фізіологічна хімія) — наука про
+                    хімічний склад організмів та їхніх складових частин та про
+                    хімічні процеси, що протікають в організмах.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider-item">
+              <!--Картка БІОТЕХНОЛОГІЇ-->
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./img/cards-img/biotech-card-img.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Біотехнології</h5>
+                  <p class="card-text">
+                    Біотехноло́гія (Βιοτεχνολογία, від грец. βίος — життя, τέχνη
+                    — мистецтво, майстерність і λόγος — слово, навчання) —
+                    використання живих організмів і біологічних процесів у
+                    виробництві.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider-item">
+              <!--Картка ПОЛЬСЬКА МОВА-->
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./img/cards-img/polish-card-img.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Польська мова</h5>
+                  <p class="card-text">
+                    По́льська мо́ва (пол. język polski, polszczyzna) —
+                    західнослов'янська мова лехітської групи, яка використовує
+                    латинський алфавіт.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider-item">
+              <!--Картка WEB-РОЗРОБКА-->
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./img/cards-img/web-card-img.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Web-розробка</h5>
+                  <p class="card-text">
+                    Веброзробка — процес створення вебсайтів або вебдодатків.
+                    Основними етапами процесу є вебдизайн, верстка сторінок,
+                    програмування для веб на стороні клієнта і сервера, а також
+                    конфігурування вебсервера.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
